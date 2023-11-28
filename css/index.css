@@ -1,0 +1,114 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('../font/Nunito-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: Bebafont;
+    src: url('../font/BebasNeue-Regular.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: myFirstFont;
+}
+
+body{
+    background-color: rgba(235, 236, 240, 1);
+    line-height: 1.6;
+}
+header{
+    text-align: center;
+}
+/* NAVBAR */
+nav{
+    background-color: gray;
+    padding: 1em 0;
+}
+nav ul li{
+    display: inline;
+    padding: 1em;
+}
+nav ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* MAIN */
+main{
+    border: 1px solid;
+    margin: 1em;
+    padding: 5em 20em;
+}
+
+/* CLASS HR */
+hr{
+    color: gray;
+    border: 2px solid;
+}
+.top{   
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bottom{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* CONTACT INFORMATION */
+.profile-info p{
+    line-height: 1;
+}
+.description{
+    font-weight: bold;
+}
+.contact-info{
+    padding: 3em 0 1em 0;
+}
+.fullname{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Bebafont;
+}
+
+/* IMAGES */
+.profile-info{
+    display: flex;
+}
+.infos{
+    flex:50%;
+}
+
+img{
+    margin: 0 7em;
+    max-width: 60%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/* SECOND SECTION - CAREER OVERVIEW */
+.description1{
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+/* THIRD SECTION - EDUCATION AND SKILLS */
+.profile-info1{
+    display: flex;
+}
+    .profile-info1 p{
+        line-height: 1.2;
+    }
+    .profile-info1 ul{
+        padding-left: 2em;
+    }
+
+.main-details{
+    flex: 50%;
+    padding: 0 2em 0 0;
+}
+.description2{
+    line-height: 1;
+}
+
